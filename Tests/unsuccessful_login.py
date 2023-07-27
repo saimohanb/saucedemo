@@ -1,7 +1,7 @@
 import allure
 
 from selenium import webdriver
-from Saucedemo.Pages.Login import LoginPage
+from Pages.Login import LoginPage
 
 driver = webdriver.Chrome()
 url = 'https://www.saucedemo.com/'
